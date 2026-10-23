@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Notebook Sidebar",
+  "version": "1.2.4",
+  "description": "Notebook Sidebar is a handy tool for quick and easy note taking with advanced features.", 
+  "icons": { 
+    "16": "logo1.png",
+    "48": "logo2.png",
+    "128": "logo3.png" 
+  },
+  "action": { 
+    "default_title": "Notebook Sidebar",
+    "default_icon": "logo1.png" 
+  },
+  "permissions": [ "sidePanel" ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": { 
+    "default_path": "sidepanel.html" 
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["light.css", "dark.css", "icons/sun.svg", "icons/moon.svg"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

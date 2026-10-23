@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Notebook Sidebar</title>
+  <meta charset="UTF-8">
+  <link id="theme-stylesheet" rel="stylesheet" href="light.css">
+</head>
+<body>
+  <div class="container">
+    <div class="panel panel-up-right">
+      <div class="input-container">
+        <input type="text" placeholder="Search..." class="search-bar portrait" id="searchBarPortrait" />
+        <button class="save-button" id="saveNoteButton">save note</button>
+      </div>
+      <textarea spellcheck="false" placeholder="Write your note here..." class="text-area" id="noteTextArea"></textarea>
+      <div class="save-button-container">
+        <div class="align-buttons-container">
+          <button class="align-btn" data-align="left" title="Left Align">
+            <img src="icons/left-align.svg" alt="Left">
+          </button>
+          <button class="align-btn" data-align="center" title="Center Align">
+            <img src="icons/center-align.svg" alt="Center">
+          </button>
+          <button class="align-btn" data-align="right" title="Right Align">
+            <img src="icons/right-align.svg" alt="Right">
+          </button>
+          <button class="action-btn cut" id="cutAllBtn" title="Cut All">cut</button>
+          <button class="action-btn copy" id="copyAllBtn" title="Copy All">copy</button>
+        </div>
+        <button class="save-button" id="saveNoteButtonLandscape">save note</button>
+      </div>
+      <div class="support">
+        <span>support: <a href="https://t.me/Anony_muos" target="_blank">t.me/Anony_muos</a></span>
+        <div class="support-buttons">
+          <button class="hello-button" id="importButton">Import</button>
+          <button class="hello-button" id="exportAllButton">📥Download All</button>
+          <div class="theme-switch">
+            <input type="checkbox" id="themeToggle">
+            <label for="themeToggle">
+              <img id="themeIcon" src="icons/sun.svg" alt="Theme Icon">
+              <span id="themeText">light</span>
+            </label>
+          </div>
+          <input type="file" id="importFileInput" class="file-input" accept=".txt" />
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-down-left">
+      <input type="text" placeholder="Search..." class="search-bar landscape" id="searchBarLandscape" />
+      <ul class="notes-list" id="notesList"></ul>
+    </div>
+  </div>
+  <script src="sidepanel.js"></script>
+</body>
+
+</html>

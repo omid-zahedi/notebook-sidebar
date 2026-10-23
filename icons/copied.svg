@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+	<defs>
+		<image width="256" height="256" id="img1" href="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iMjU2cHgiIGhlaWdodD0iMjU2cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4gPHBhdGggZD0iTTQuODkxNjMgMTMuMjY4N0w5LjE2NTgyIDE3LjU0MjdMMTguNzA4NSA4IiBzdHJva2U9IiM0M2QwNjciIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4gPC9nPgoNPC9zdmc+"/>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #43d067;stroke-width: 16 } 
+	</style>
+	<g id="SVGRepo_iconCarrier">
+		<path class="s0" d="m57 111.33c0-30.17 0-45.25 9.37-54.62 9.38-9.38 24.46-9.38 54.63-9.38h32c30.17 0 45.25 0 54.63 9.38 9.37 9.37 9.37 24.45 9.37 54.62v53.34c0 30.17 0 45.25-9.37 54.62-9.38 9.38-24.46 9.38-54.63 9.38h-32c-30.17 0-45.25 0-54.63-9.38-9.37-9.37-9.37-24.45-9.37-54.62z"/>
+		<use id="tick-svgrepo-com" href="#img1" transform="matrix(.643,0,0,.643,59,51)"/>
+		<path class="s0" d="m64 202.67c-17.67 0-32-14.33-32-32v-64c0-40.23 0-60.34 12.5-72.84 12.49-12.5 32.61-12.5 72.83-12.5h42.67c17.67 0 32 14.33 32 32"/>
+	</g>
+</svg>
